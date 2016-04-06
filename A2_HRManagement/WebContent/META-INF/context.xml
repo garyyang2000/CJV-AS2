@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Context path="/Lab9-3"   not for Tomcat container -->
+<Context>
+ 
+    <Resource name="jdbc/mysql_cjv805_161a19" auth="Container" 
+        driverClassName="com.mysql.jdbc.Driver" 
+        url="jdbc:mysql://zenit.senecac.on.ca:3306/cjv805_161a19" 
+        username="cjv805_161a19" password="fpNA6842" 
+        maxActive="100" maxIdle="30" maxWait="10000" 
+        logAbandoned="true" removeAbandoned="true" 
+        removeAbandonedTimeout="60" type="javax.sql.DataSource" />  
+        
+    <Resource name="jdbc/oracle_cjv805_161a19" auth="Container" 
+        driverClassName="oracle.jdbc.OracleDriver" 
+        url="jdbc:oracle:thin:@//zenit.senecac.on.ca:1521/neptune" 
+        username="cjv805_161a19" password="fpNA6842" 
+        maxActive="100" maxIdle="30" maxWait="10000" 
+        logAbandoned="true" removeAbandoned="true" 
+        removeAbandonedTimeout="60" type="javax.sql.DataSource" /> 
+</Context>
